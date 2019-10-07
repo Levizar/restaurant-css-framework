@@ -1,12 +1,14 @@
 # restaurant-css-framework #
 
-This ripository has been made during our intership at BeCode.
+[The site]()
 
-The goal was to make a restaurant site by using bootstrap.
+## Goal ##
+Make a restaurant site by using bootstrap.
 
+## Dates ##
 It has been done between monday the 7th October and X the X October.
 
-Team:
+## Team: ##
 - [Brice Bartoletti](https://github.com/Levizar)
 - [Gaudeline Durieux](https://github.com/Gaudeline)
 - [Maelys Etienne](https://github.com/Mae26)
