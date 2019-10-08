@@ -6,7 +6,16 @@
 // $ftTcol:rgb(255, 255, 255);
 // $ftFilter: sepia(1);
 
+*{
+    list-style:none;
+}
+
+
 footer{
     position: sticky;
     top: 0px;
+}
+
+.jumbotron{
+    opacity: 0.7;
 }
