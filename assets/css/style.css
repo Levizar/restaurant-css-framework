@@ -11,4 +11,16 @@ footer {
 .jumbotron {
   opacity: 0.7;
 }
+
+#pierre-bg {
+  background-image: url("../img/back-stone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#opaque {
+  opacity: 0.8;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
