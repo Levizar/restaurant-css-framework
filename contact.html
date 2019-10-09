@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>ACCUEIL</title>
-  </head>
-  <body>
-    
+    <title>Contact</title>
+</head>
+<body>
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">LogoPierre</a>
@@ -19,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/index.html">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Carte</a>
@@ -49,69 +48,69 @@
       </nav>
       <!-- main -->
 
-      <!-- BACKGROUND -->
-      <div class="card bg-dark text-white img-fluid" id="pierre-bg">
-          <!--  <img src="assets/img/back-stone.jpg" class="card-img" alt="..." > -->
-          <!-- CONTAINER JUMBOTRON -->
-          <div class="container mt-5">
-            <div class="jumbotron justify-content-center bg-dark" >
-                    <h1 class="display-4 text-center">Chez Pierre</h1>
-                    <p class="lead text-center">Des pierres de qualité pour des gourmets de qualité ! </p>
-                    <hr class="my-4">
-                    <p class="text-center">It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <div class="text-center">
-                        <button type="button" class="btn btn-light">CARTE</button>
-                      </div>
-            </div>
-          </div>
-         
-         
-          
-      </div>
-       <!-- DESSOUS DE PAGE -->
-      <div class="container mt-5 ">
-        <div>
 
-          <!-- ROW 1 -->
-
-          
-
-           <div class="row d-flex justify-content-between ">
-
-              <div class="card col-12 col-md-3  order-md-2 mb-5 mb-md-5" >
-                  <img src="assets/img/back-stone.jpg" class="card-img-top" alt="...">    
-              </div>
-
-              <div class="border col-12 col-md-8 border-dark order-md-1 mb-5 mb-md-5">
-                <p class="text-center"> Test </p>
-              </div>
-              
-              
-
-             
-
-
-                
-                <div class="card col-md-3 col-sm-12 mt-5 mb-md-5" >
-                    <img src="assets/img/back-stone.jpg" class="card-img-top" alt="...">    
-                </div>
-
-                <div class="border col-md-8 border-dark col-sm-12  mt-5 mb-md-5">
-                    <p class="text-center"> Test </p>
-                      
-                        
-                      
+      <!-- FORM CARD-->
+      <div class="container mb-5">
+          <h3 class="text-center mt-5">NOUS CONTACTEZ</h3>
+          <div class="row d-flex justify-content-center border mt-5 shadow" style="background-image: url('assets/img/back-stone.jpg')">
+            <form class="border shadow-lg p-3 mb-3 mt-3 bg-dark" id="opaque">
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                   </div>
+                  
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Entrez votre adresse">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Appartement, studio, étage">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">Pays</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choisir...</option>
+                      <option>Belgique</option>
+                      <option>France</option>
+                      <option>Italie</option>
+                      <option>Portugal</option>
+                      <option>Espagne</option>
+                      <option>Angleterre</option>
+                      <option>Japon</option>
+                      <option>Pays-Bas</option>
+                      <option>Pologne</option>
+                      <option>Russie</option>
+                      <option>Laos</option>
+                      
+
+                      
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>
           </div>
-
-
-          
-        </div>
-      
-
-    
-     
-      
+      </div>
       <!-- footer-->
     <footer class="mt-5">
         <ul class="row">

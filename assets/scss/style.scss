@@ -1,13 +1,16 @@
- // @import "_footer.scss";
+.jumbotron{
+    opacity: 0.7;
+}
 
- // footer variables
- // $ftbgcolor: #333333;
- // $ftHfontS: 14px;
- // $ftTcol:rgb(255, 255, 255);
- // $ftFilter: sepia(1);
+#pierre-bg{
+    background-image: url('../img/back-stone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
-footer{
-    position: sticky;
-    top: 0px;
+#opaque{
+    opacity: 0.8;
+    color: white;
 }
 
