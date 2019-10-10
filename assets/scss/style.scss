@@ -1,21 +1,3 @@
-// @import "_footer.scss";
-
-// footer variables
-// $ftbgcolor: #333333;
-// $ftHfontS: 14px;
-// $ftTcol:rgb(255, 255, 255);
-// $ftFilter: sepia(1);
-
-*{
-    list-style:none;
-}
-
-
-footer{
-    position: sticky;
-    top: 0px;
-}
-
 .jumbotron{
     opacity: 0.7;
 }
@@ -30,4 +12,9 @@ footer{
 #opaque{
     opacity: 0.8;
     color: white;
+}
+
+footer{
+    position: sticky;
+    top: 0px;
 }
