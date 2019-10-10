@@ -22,10 +22,18 @@
 footer{
     position: sticky;
     top: 0px;
-
+    background-color: #F8F9FA;
+    // background: red;
     ul{
         li{
             list-style-type: none;
+            
+            .fab{
+                color: #838484;
+                &:hover{
+                    color:#1f1f46;
+                }
+            }
         }
     }
 }
