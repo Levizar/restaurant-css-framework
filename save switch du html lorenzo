@@ -1,0 +1,4 @@
+  <!------------------------------------------- NUIT ---------------------->
+        <button class="label-text" onclick="document.getElementById('theme').style.backgroundColor='#292929';document.getElementById('theme').style.color='white';getElementById('formulaire').style.backgroundColor='white'"> <i class="fas fa-moon"></i></button>
+        <!------------------------------------------- JOUR ---------------------->
+        <button class="label-text" onclick="document.getElementById('theme').style.backgroundColor='white';document.getElementById('theme').style.backgroundColor='white';document.getElementById('theme').style.color='black';getElementById('formulaire').style.backgroundColor='black';document.getElementsByClassName('js-color').style.color='black'" > <i class="fas fa-sun"></i></button>
