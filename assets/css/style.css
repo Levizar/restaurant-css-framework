@@ -13,4 +13,10 @@
   opacity: 0.8;
   color: white;
 }
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
 /*# sourceMappingURL=style.css.map */
