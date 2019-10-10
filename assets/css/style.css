@@ -13,4 +13,15 @@
   opacity: 0.8;
   color: white;
 }
+
+.opaqueN {
+  opacity: 0.8;
+  color: black;
+}
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
 /*# sourceMappingURL=style.css.map */
