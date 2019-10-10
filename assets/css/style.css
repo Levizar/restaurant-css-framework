@@ -24,4 +24,8 @@ footer {
   position: sticky;
   top: 0px;
 }
+
+footer ul li {
+  list-style-type: none;
+}
 /*# sourceMappingURL=style.css.map */
