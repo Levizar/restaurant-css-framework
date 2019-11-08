@@ -8,7 +8,7 @@ The goal of this repo was to make a restaurant site by using bootstrap 4.
 
 ## Dates ##
 
-It has been done between monday the 7th October and X the X October.
+It has been done between monday the 7th October and Friday the 11th October.
 
 ## Team: ##
 
